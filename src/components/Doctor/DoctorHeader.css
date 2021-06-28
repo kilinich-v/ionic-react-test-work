@@ -1,0 +1,8 @@
+ion-avatar {
+  width: 144px;
+  height: auto;
+}
+
+ion-avatar > img {
+  border-radius: 4px;
+}
