@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionic-react-test-work",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
