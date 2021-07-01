@@ -6,24 +6,22 @@ import './DoctorHeader.css'
 const DoctorHeader: React.FC = () => {
   return (
     <>
-      <IonContent className="ion-padding">
-        <IonGrid>
-          <IonRow className="ion-justify-content-center">
-            <h1>Алексей Карачинский</h1>
-          </IonRow>
-          <IonRow className="ion-justify-content-center ion-align-items-center">
-            <IonCol size="auto">
-              <IonAvatar>
-                <img src={avatar} alt="" />
-              </IonAvatar>
-            </IonCol>
-            <IonCol size="auto">
-              <p>Длительность консультации</p>
-              <p>50 минут</p>
-            </IonCol>
-          </IonRow>
-        </IonGrid>
-      </IonContent>
+      <IonGrid>
+        <IonRow className="ion-justify-content-center">
+          <h1>Алексей Карачинский</h1>
+        </IonRow>
+        <IonRow className="ion-justify-content-center ion-align-items-center">
+          <IonCol size="auto">
+            <IonAvatar>
+              <img src={avatar} alt="" />
+            </IonAvatar>
+          </IonCol>
+          <IonCol size="auto">
+            <p>Длительность консультации</p>
+            <p>50 минут</p>
+          </IonCol>
+        </IonRow>
+      </IonGrid>
     </>
   )
 }

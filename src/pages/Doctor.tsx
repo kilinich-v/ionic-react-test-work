@@ -5,7 +5,7 @@ import { Appointment } from '../components/Appointment'
 const Patient: React.FC = () => {
   return (
     <IonPage>
-      <IonContent fullscreen>
+      <IonContent className="ion-padding" fullscreen>
         <DoctorHeader />
         <Appointment />
       </IonContent>
